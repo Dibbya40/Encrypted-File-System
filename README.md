@@ -1,1 +1,3 @@
 # Encrypted-File-System
+
+In a traditional file system, files are usually stored on disks unencrypted. When the disks are stolen by someone, contents of those files can be easily recovered by the malicious people. Encrypted File System (EFS) is developed to prevent such leakages. In an EFS, files on disks are all encrypted, nobody can decrypt the files without knowing the required secret. Therefore, even if a EFS disk is stolen, or if otherwise an adversary can read the file stored on the disk, its files are kept confidential. EFS has been implemented in a number of operating systems, such as Solaris, Windows NT, and Linux.
